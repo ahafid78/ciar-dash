@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Navigate } from "react-router-dom";
 import axios from "axios";
-const BASE_URL = "https://imprim-server.onrender.com"
-// const BASE_URL = "http://localhost:7000"
+const BASE_URL = "https://ciar.onrender.com"
+// const BASE_URL = "http://localhost:7500"
 export default function PrivateRoute({ children }) {
   const [child, setChild] = useState();
   if (!localStorage.getItem("token")) {

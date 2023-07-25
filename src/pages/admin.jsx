@@ -17,9 +17,9 @@ export default function AdminPage() {
 
   let BACKEND_URL;
   if (process.env.NODE_ENV == "production") {
-    BACKEND_URL = "https://imprim-server.onrender.com"
+    BACKEND_URL = "https://ciar.onrender.com"
   } else {
-    BACKEND_URL = "http://localhost:7000"
+    BACKEND_URL = "http://localhost:7500"
   }
 
 
