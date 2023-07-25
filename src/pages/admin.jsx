@@ -265,11 +265,12 @@ export default function AdminPage() {
             return (
               <div className="product-card" key={index}>
                 <img className="img" src={product.image} alt={product.title} width='150px' />
-                <p className="title">{product.title}</p>
+
                       <h3 className="cat">{product.category}</h3>
+                      <p className="title">{product.title}</p>                     
                       <h3 className="quantite">{product.price}</h3>
                 <div style={{ display: 'flex' }}>
-                <h3 className="description">{product.description}</h3>
+                {/* <h3 className="description">{product.description}</h3> */}
                   {/* <h6>{product?.rating?.rate}</h6> */}
                   {/* <h6>{product?.rating?.count}</h6> */}
                 </div>
