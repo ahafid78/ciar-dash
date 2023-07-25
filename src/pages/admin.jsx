@@ -268,7 +268,7 @@ export default function AdminPage() {
                 <p className="title">{product.title}</p>
                       <h3 className="cat">{product.category}</h3>
                 <div style={{ display: 'flex' }}>
-                  {/* <h6>{product.price}$</h6> */}
+                      <h6 className="quantite">{product.price}$</h6>
                   {/* <h6>{product?.rating?.rate}</h6> */}
                   {/* <h6>{product?.rating?.count}</h6> */}
                 </div>
