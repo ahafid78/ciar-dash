@@ -2,7 +2,7 @@
 import React from "react";
 import axios from 'axios'
 import { useEffect, useState } from 'react'
-import '../assets/App.css'
+import '../App.css'
 import { logout } from "../services/auth.service";
 
 export default function AdminPage() {
